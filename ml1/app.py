@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved logistic regression model
-model = pickle.load(open('logistic_model.pkl', 'rb'))
+model = pickle.load(open('basi.pkl', 'rb'))
 
 # Streamlit app
 st.title("Diabetes Prediction")
